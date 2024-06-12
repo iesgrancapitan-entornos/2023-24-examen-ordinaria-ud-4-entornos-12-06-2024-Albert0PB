@@ -111,6 +111,6 @@ class Coche(Vehículo):
     def fabricante(self, value):
         """
         Método setter del atributo 'fabricante' del coche.
-        :param value: Se pasa como parámetro el nuevo valor que indica cuál es el fabricante del coche.
+            :param value: Se pasa como parámetro el nuevo valor que indica cuál es el fabricante del coche.
         """
         self.__fabricante = value
