@@ -8,7 +8,15 @@ Extrae una superclase Vehículo con los campos
 :autor: Jaime Rabasco
 """
 
-class Coche:
+
+class Vehículo:
+    def __init__(self, num_serie, color, fabricante):
+        self.__num_serie = num_serie
+        self.__color = color
+        self.__fabricante = fabricante
+
+
+class Coche(Vehículo):
 
     num_serie = 1;
     cilindrada = 1000;
