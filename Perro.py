@@ -6,7 +6,8 @@ Autor: Jaime Rabasco Ronda.
 class Perro:
 
     def ladrar(self):
-        print('Guau');
+        self.ladra = 'Guau'
+        print(self.ladra);
 
 p = Perro();
 p.ladrar();
